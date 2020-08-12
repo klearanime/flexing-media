@@ -12,9 +12,6 @@
   border: 2px solid orange;
 }
 
-.one {
-  display: flex;
-}
 /* 1. When the screen is less than 600px, make 1 column of 20. */
 
 @media (max-width: 599px) {

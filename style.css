@@ -1,3 +1,8 @@
+  body {
+  display: flex;
+  flex-direction: row;
+}
+
 .square {
   background-color: green;
   font-size: 4em;
@@ -5,4 +10,59 @@
   width: 80px;
   height: 80px;
   border: 2px solid orange;
+}
+
+.one {
+  display: flex;
+}
+/* 1. When the screen is less than 600px, make 1 column of 20. */
+
+@media (max-width: 599px) {
+  body {
+    flex-direction: column;
+    display: flex;
+  }
+  .one {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* 2. When the screen is between 600px and 800px, make 2 columns of 10. */
+
+@media (max-width: 600px) {
+  body {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .one {
+    flex-direction: column;
+    display: flex;
+  }
+
+@media (max-width: 800px) {
+  body {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .one {
+    display: flex;
+    flex-direction: column;
+  }
+}
+  /*
+3. When the screen is between 800px and 1000px, make 10 columns of 2.
+
+4. When the screen is greater than 1000px, make 20 columns of 1. */
+
+@media (max-width: 1000px) {
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.one {
+  display: flex;
 }

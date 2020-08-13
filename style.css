@@ -7,11 +7,15 @@
   border: 2px solid orange;
 }
 
+<<<<<<< HEAD
 .app {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
+=======
+/* 1. When the screen is less than 600px, make 1 column of 20. */
+>>>>>>> da4bc2fcd42476d761bdc341ff1081353519d6a8
 
 .section {
   display: flex;
@@ -46,5 +50,9 @@
 }
 body {
   display: flex;
+<<<<<<< HEAD
   flex-direction: row;
 }
+=======
+}
+>>>>>>> da4bc2fcd42476d761bdc341ff1081353519d6a8
